@@ -47,7 +47,7 @@ module.exports.getAllUsers = async (req, res) => {
       res.status(500).json({ message: error.message });
     }
   };
-
+//
   module.exports.updateUser = async (req, res) => {
     try {
         const {id} = req.params;
